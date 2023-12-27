@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Communication Skills"
+    },
+    {
+        "id": 2,
+        "name": "Problem Solving"
+    },
+    {
+        "id": 3,
+        "name": "Teamwork"
+    },
+    {
+        "id": 4,
+        "name": "Time Management"
+    },
+    {
+        "id": 5,
+        "name": "Leadership"
+    },
+    {
+        "id": 6,
+        "name": "Critical Thinking"
+    },
+    {
+        "id": 7,
+        "name": "Adaptability"
+    },
+    {
+        "id": 8,
+        "name": "Creativity"
+    },
+    {
+        "id": 9,
+        "name": "Technical Proficiency"
+    },
+    {
+        "id": 10,
+        "name": "Attention to Detail"
+    },
+    {
+        "id": 11,
+        "name": "Analytical Skills"
+    },
+    {
+        "id": 12,
+        "name": "Conflict Resolution"
+    },
+    {
+        "id": 13,
+        "name": "Decision Making"
+    },
+    {
+        "id": 14,
+        "name": "Networking"
+    },
+    {
+        "id": 15,
+        "name": "Project Management"
+    },
+    {
+        "id": 16,
+        "name": "Presentation Skills"
+    },
+    {
+        "id": 17,
+        "name": "Coding/Programming"
+    },
+    {
+        "id": 18,
+        "name": "Data Analysis"
+    },
+    {
+        "id": 19,
+        "name": "Language Proficiency"
+    },
+    {
+        "id": 20,
+        "name": "Financial Literacy"
+    }
+]
