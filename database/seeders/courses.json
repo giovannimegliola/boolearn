@@ -1,0 +1,338 @@
+[
+    {
+        "id": 1,
+        "name": "Digital Marketing",
+        "description": "Embark on a transformative journey to master the art and science of digital marketing. In this comprehensive course, you will delve into a myriad of online marketing strategies designed to empower you in effectively promoting and positioning products and services in the digital landscape. Explore the intricacies of search engine optimization (SEO), social media marketing, email campaigns, and the use of compelling content to engage your audience. Gain valuable insights into consumer behavior, analytics, and the latest trends shaping the dynamic field of digital marketing. Whether you're a marketing enthusiast or a business professional seeking to enhance your digital presence, this intermediate-level course offers a rich learning experience.",
+        "start_date": "2023-05-01",
+        "end_date": "2023-06-15",
+        "image": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 99.99,
+        "n_participants": 50,
+        "level": "Intermediate",
+        "availability": true,
+        "language": "English"
+    },
+
+    {
+        "id": 2,
+        "name": "Advanced Photography",
+        "description": "Immerse yourself in the art and science of photography with our Advanced Photography Course. Elevate your skills by delving into sophisticated techniques and mastering the use of specialized equipment. From advanced composition and lighting to in-depth post-processing, this course is tailored for photography enthusiasts seeking to take their craft to the next level. Join us from June 1, 2023, to July 15, 2023, and explore the world of visual storytelling. With a focus on hands-on learning and real-world applications, you'll develop a keen eye for detail and an appreciation for the nuances of photographic artistry. This advanced-level course is conducted in Italian, providing a dynamic and immersive learning experience. Unleash your creativity and capture moments that transcend the ordinary.",
+        "start_date": "2023-06-01",
+        "end_date": "2023-07-15",
+        "image": "https://images.unsplash.com/photo-1502982720700-bfff97f2ecac?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 149.99,
+        "n_participants": 40,
+        "level": "Advanced",
+        "availability": true,
+        "language": "Italian"
+    },
+
+    {
+        "id": 3,
+        "name": "Spanish Language",
+        "description": "Embark on a captivating journey to learn the Spanish language and immerse yourself in the rich tapestry of Spanish culture. Our Spanish Language Course offers a dynamic and interactive experience through engaging lessons and hands-on practical activities. From basic language essentials to cultural nuances, this course is tailored for beginners eager to explore the beauty of the Spanish language. Join us from July 1, 2023, to August 15, 2023, and discover the joy of communicating in Spanish. The course is conducted entirely in Spanish, providing an authentic language immersion that accelerates your learning. Priced at $29.99, this course is accessible to 30 participants who are passionate about embarking on a linguistic adventure. Seize the opportunity to broaden your horizons and embrace the Spanish language with confidence.",
+        "start_date": "2023-07-01",
+        "end_date": "2023-08-15",
+        "image": "https://images.unsplash.com/photo-1632504102568-fb9282ec920f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 29.99,
+        "n_participants": 30,
+        "level": "Beginner",
+        "availability": true,
+        "language": "Spanish"
+    },
+
+    {
+        "id": 4,
+        "name": "Time Management",
+        "description": "Master the art of time management in our comprehensive course designed to enhance productivity and well-being. Explore proven strategies and techniques to optimize your time, increase efficiency, and reduce stress. From prioritization and goal setting to effective delegation and overcoming procrastination, this intermediate-level Time Management course equips you with practical skills for both personal and professional success. Join us from August 1, 2023, to September 15, 2023, and transform the way you manage your time. With a focus on real-world applications, this course caters to individuals seeking to strike a balance between work and life commitments. Priced at $79.99, the course welcomes 90 participants, fostering a collaborative learning environment. Don't miss this opportunity to take control of your time and unlock your full potential. The course is conducted in English, providing a universal platform for skill development.",
+        "start_date": "2023-08-01",
+        "end_date": "2023-09-15",
+        "image": "https://images.unsplash.com/photo-1605791767308-46f38113f418?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 79.99,
+        "n_participants": 90,
+        "level": "Intermediate",
+        "availability": true,
+        "language": "English"
+    },
+
+    {
+        "id": 5,
+        "name": "3D Graphics",
+        "description": "Dive into the fascinating world of three-dimensional graphic design with our Advanced 3D Graphics Course. Unleash your creativity as you explore cutting-edge techniques to create visually stunning and immersive visualizations. From mastering 3D modeling and texturing to advanced rendering and animation, this course is tailored for individuals passionate about pushing the boundaries of graphic design. Join us from September 1, 2023, to October 15, 2023, and embark on a journey to transform your artistic vision into extraordinary digital creations. The course, conducted in Italian, provides an immersive learning experience for 40 participants, fostering a collaborative and dynamic environment. Priced at 159.99, this course is ideal for those seeking to elevate their graphic design skills to an advanced level. Don't miss the chance to bring your 3D creations to life and make a lasting impact in the world of digital design.",
+        "start_date": "2023-09-01",
+        "end_date": "2023-10-15",
+        "image": "https://images.unsplash.com/photo-1635939412822-8f3ee593d147?q=80&w=2854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 159.99,
+        "n_participants": 40,
+        "level": "Advanced",
+        "availability": true,
+        "language": "Italian"
+    },
+
+    {
+        "id": 6,
+        "name": "Android Development",
+        "description": "Embark on a journey into the world of mobile app development with our Intermediate Android Development Course. Learn the essential skills to create Android applications from the ground up and navigate the intricacies of the app development life cycle. From user interface design to implementing functionality and deploying apps on the Google Play Store, this course provides hands-on experience and real-world insights. Join us from October 1, 2023, to November 15, 2023, and gain the expertise to bring your app ideas to life. The course, conducted in English, is ideal for individuals with a basic understanding of programming seeking to delve into mobile app development. Priced at $89.99, the course accommodates 40 participants, fostering a collaborative learning environment. Don't miss this opportunity to join the vibrant community of Android developers and contribute to the ever-evolving landscape of mobile technology.",
+        "start_date": "2023-10-01",
+        "end_date": "2023-11-15",
+        "image": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 89.99,
+        "n_participants": 40,
+        "level": "Intermediate",
+        "availability": true,
+        "language": "English"
+    },
+
+    {
+        "id": 7,
+        "name": "Advanced Data Science",
+        "description": "Immerse yourself in the realm of data science with our Advanced Data Science course. Master advanced techniques and tools to extract valuable insights from complex datasets. From machine learning algorithms and predictive modeling to advanced statistical analysis, this course is designed for individuals seeking to deepen their understanding of data science at an advanced level. Join us from November 1, 2023, to December 15, 2023, and embark on a journey to become a proficient data scientist. The course, conducted in English, offers a dynamic learning environment for 30 participants, encouraging collaboration and exploration of cutting-edge data science concepts. Priced at $149.99, this course is ideal for professionals and enthusiasts ready to elevate their data science skills to new heights. Don't miss the opportunity to harness the power of data for informed decision-making and innovation.",
+        "start_date": "2023-11-01",
+        "end_date": "2023-12-15",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 149.99,
+        "n_participants": 30,
+        "level": "Advanced",
+        "availability": true,
+        "language": "English"
+    },
+
+    {
+        "id": 8,
+        "name": "Web Development Bootcamp",
+        "description": "Embark on a transformative journey to become a proficient web developer through our Web Development Bootcamp. Gain comprehensive skills in both front-end and back-end development, equipping you to create dynamic and interactive websites. From mastering HTML, CSS, and JavaScript for responsive design to exploring server-side scripting and database integration, this intermediate-level bootcamp offers a holistic approach to web development. Join us from December 1, 2023, to January 15, 2024, and accelerate your path to becoming a skilled web developer. The course, conducted in English, accommodates 50 participants and fosters a collaborative learning environment. Priced at $69.99, this bootcamp is perfect for individuals with a basic understanding of web development, ready to take their skills to the next level. Don't miss this opportunity to shape the future of the digital landscape through web development expertise.",
+        "start_date": "2023-12-01",
+        "end_date": "2024-01-15",
+        "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 69.99,
+        "n_participants": 50,
+        "level": "Intermediate",
+        "availability": true,
+        "language": "English"
+    },
+
+    {
+        "id": 9,
+        "name": "Digital Art and Design",
+        "description": "Unleash your artistic expression through our Digital Art and Design course. Explore the fundamentals of digital artistry and delve into essential design principles that will elevate your creative skills. From mastering digital illustration techniques to understanding color theory and composition, this beginner-level course is crafted for individuals passionate about venturing into the world of digital art and design. Join us from January 1, 2024, to February 15, 2024, and embark on a transformative journey to bring your artistic visions to life in the digital realm. The course, conducted in English, accommodates 40 participants, fostering a supportive and collaborative learning environment. Priced at $29.99, this course is the perfect starting point for beginners looking to discover the boundless possibilities of digital art and design. Don't miss the opportunity to express yourself creatively and build a solid foundation in digital artistic endeavors.",
+        "start_date": "2024-01-01",
+        "end_date": "2024-02-15",
+        "image": "https://images.unsplash.com/photo-1599252441131-5aafffcf7740?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 29.99,
+        "n_participants": 40,
+        "level": "Beginner",
+        "availability": true,
+        "language": "English"
+    },
+
+    {
+        "id": 10,
+        "name": "Machine Learning Fundamentals",
+        "description": "Embark on a journey to grasp the core concepts of machine learning with our intermediate-level course. Gain a foundational understanding of machine learning algorithms and their real-world applications. From supervised learning and regression to unsupervised learning and clustering, this course provides a comprehensive overview of the fundamental principles shaping the field of machine learning. Join us from February 1, 2024, to March 15, 2024, and explore the fascinating world of intelligent data analysis. The course, conducted in English, caters to 30 participants, offering a collaborative learning environment. Priced at $79.99, this course is ideal for individuals with a basic understanding of data analysis and programming, ready to delve into the realm of machine learning. Don't miss this opportunity to acquire valuable skills and insights in the rapidly evolving field of artificial intelligence.",
+        "start_date": "2024-02-01",
+        "end_date": "2024-03-15",
+        "image": "https://plus.unsplash.com/premium_photo-1682124651258-410b25fa9dc0?q=80&w=2821&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 79.99,
+        "n_participants": 30,
+        "level": "Intermediate",
+        "availability": true,
+        "language": "English"
+    },
+
+    {
+        "id": 11,
+        "name": "Entrepreneurship Essentials",
+        "description": "Embark on a transformative journey to acquire essential skills and knowledge for launching and growing a successful business. Our Beginner-level Entrepreneurship Essentials course provides a comprehensive foundation for aspiring entrepreneurs. From business planning and market research to financial management and marketing strategies, this course equips you with the tools needed to navigate the challenging landscape of entrepreneurship. Join us from March 1, 2024, to April 15, 2024, and immerse yourself in a dynamic learning experience that prepares you for the exciting world of entrepreneurship. The course, conducted in English, accommodates 40 participants, fostering collaboration and the exchange of entrepreneurial ideas. Priced at $59.99, this course is ideal for individuals with a passion for innovation and a desire to build a thriving business. Don't miss the opportunity to turn your entrepreneurial dreams into reality.",
+        "start_date": "2024-03-01",
+        "end_date": "2024-04-15",
+        "image": "https://images.unsplash.com/photo-1624555130858-7ea5b8192c49?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 59.99,
+        "n_participants": 40,
+        "level": "Beginner",
+        "availability": true,
+        "language": "English"
+    },
+
+    {
+        "id": 12,
+        "name": "Creative Writing Workshop",
+        "description": "Immerse yourself in the art of storytelling and hone your creative writing skills through our Advanced Creative Writing Workshop. Engage in interactive workshops, receive constructive feedback, and explore various genres and writing techniques. From character development and plot construction to narrative structure and editing, this advanced-level workshop is designed for writers seeking to elevate their craft to new heights. Join us from April 1, 2024, to May 15, 2024, and embark on a literary journey that will inspire and challenge you. The workshop, conducted in English, offers a nurturing environment for 20 participants, encouraging a supportive community of writers. Priced at $129.99, this workshop is ideal for those passionate about storytelling and ready to refine their writing skills. Don't miss the opportunity to unleash your creativity and become a master storyteller in the world of literature.",
+        "start_date": "2024-04-01",
+        "end_date": "2024-05-15",
+        "image": "https://images.unsplash.com/photo-1483546363825-7ebf25fb7513?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 129.99,
+        "n_participants": 20,
+        "level": "Advanced",
+        "availability": true,
+        "language": "English"
+    },
+
+    {
+        "id": 13,
+        "name": "Social Media Marketing Mastery",
+        "description": "Dive into the dynamic world of Social Media Marketing Mastery and unlock the secrets to building a powerful online presence. This Intermediate-level course is designed to equip you with the skills and strategies needed to navigate and succeed in the ever-evolving landscape of social media. From crafting compelling content and engaging with your audience to leveraging analytics and advertising, this course covers the essential aspects of effective social media marketing. Join us from May 1, 2024, to June 15, 2024, and discover how to harness the full potential of social platforms to boost brand visibility and engagement. The course, conducted in English, welcomes 50 participants, providing a collaborative space for learning and sharing insights. Priced at $79.99, this course is ideal for individuals looking to elevate their social media marketing game and leave a lasting impact in the digital sphere. Don't miss the opportunity to master the art of social media marketing and propel your online presence to new heights.",
+        "start_date": "2024-05-01",
+        "end_date": "2024-06-15",
+        "image": "https://images.unsplash.com/photo-1537731121640-bc1c4aba9b80?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 79.99,
+        "n_participants": 50,
+        "level": "Intermediate",
+        "availability": true,
+        "language": "English"
+    },
+
+    {
+        "id": 14,
+        "name": "Portrait Photography Workshop",
+        "description": "Elevate your photography skills with our Advanced Portrait Photography Workshop. This immersive course focuses on capturing stunning portraits by mastering advanced lighting techniques, composition, and posing skills. Designed for photography enthusiasts and professionals, this workshop goes beyond the basics to explore the artistry and technical aspects of portrait photography. Join us from June 1, 2024, to July 15, 2024, and learn how to create compelling and emotive portraits that tell a story. The workshop, conducted in English, accommodates 40 participants, fostering a collaborative and creative environment. Priced at $129.99, this advanced-level workshop is perfect for individuals seeking to refine their portrait photography expertise. Don't miss the opportunity to elevate your photography to new heights and capture portraits that leave a lasting impression.",
+        "start_date": "2024-06-01",
+        "end_date": "2024-07-15",
+        "image": "https://images.unsplash.com/photo-1544124094-8aea0374da93?q=80&w=2900&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 129.99,
+        "n_participants": 40,
+        "level": "Advanced",
+        "availability": true,
+        "language": "English"
+    },
+
+    {
+        "id": 15,
+        "name": "French Language Immersion",
+        "description": "Embark on a cultural journey with our French Language Immersion program. Immerse yourself in the beauty of the French language and culture through a series of interactive and immersive experiences. This Beginner-level program is designed for language enthusiasts looking to build a strong foundation in French. From engaging conversations and language exercises to cultural activities and real-life scenarios, this program provides a holistic approach to language learning. Join us from July 1, 2024, to August 15, 2024, and experience the joy of learning a new language in an authentic and immersive environment. The program, conducted entirely in French, accommodates 30 participants, fostering a supportive community of language learners. Priced at $19.99, this program is perfect for beginners seeking to embark on a linguistic and cultural adventure. Don't miss the opportunity to immerse yourself in the French language and emerge with newfound linguistic skills and cultural appreciation.",
+        "start_date": "2024-07-01",
+        "end_date": "2024-08-15",
+        "image": "https://images.unsplash.com/photo-1551866442-64e75e911c23?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 19.99,
+        "n_participants": 30,
+        "level": "Beginner",
+        "availability": true,
+        "language": "French"
+    },
+
+    {
+        "id": 16,
+        "name": "Stress Management Techniques",
+        "description": "Discover the path to a healthier and more balanced life through our Stress Management Techniques course. In this Intermediate-level program, you'll gain valuable insights and practical skills to effectively manage stress in various aspects of your life. From mindfulness and relaxation techniques to time management strategies and coping mechanisms, this course offers a comprehensive approach to stress management. Join us from August 1, 2024, to September 15, 2024, and embark on a transformative journey to enhance your well-being. The course, conducted in English, accommodates 50 participants, providing a supportive and empathetic environment for learning and growth. Priced at $79.99, this course is ideal for individuals seeking to reduce stress, improve resilience, and create a sustainable and balanced lifestyle. Don't miss the opportunity to prioritize your mental health and acquire lifelong stress management skills.",
+        "start_date": "2024-08-01",
+        "end_date": "2024-09-15",
+        "image": "https://images.unsplash.com/photo-1516534775068-ba3e7458af70?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 79.99,
+        "n_participants": 50,
+        "level": "Intermediate",
+        "availability": true,
+        "language": "English"
+    },
+
+    {
+        "id": 17,
+        "name": "Motion Graphics Design",
+        "description": "Unleash your creativity with our Advanced Motion Graphics Design course. Dive into the world of dynamic and engaging motion graphics, and learn to bring your videos and multimedia projects to life. This Advanced-level course explores the principles of motion design, visual storytelling, and animation techniques. Join us from September 1, 2024, to October 15, 2024, and discover how to create visually stunning and impactful motion graphics that captivate audiences. The course, conducted in English, accommodates 30 participants, providing a collaborative and hands-on learning environment. Priced at $189.99, this course is perfect for individuals with a passion for design and a desire to elevate their motion graphics skills. Don't miss the opportunity to master the art of motion graphics design and leave a lasting impression in the world of visual storytelling.",
+        "start_date": "2024-09-01",
+        "end_date": "2024-10-15",
+        "image": "https://plus.unsplash.com/premium_photo-1661962646119-0c9d2a604a63?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 189.99,
+        "n_participants": 30,
+        "level": "Advanced",
+        "availability": true,
+        "language": "English"
+    },
+
+    {
+        "id": 18,
+        "name": "iOS App Development",
+        "description": "Embark on a journey to master iOS App Development and unleash the potential to build powerful and user-friendly applications for iPhone and iPad devices. This Intermediate-level course guides you through the intricacies of iOS development, covering essential concepts, tools, and frameworks. Join us from October 1, 2024, to November 15, 2024, and dive into the world of Swift programming, UI/UX design, and app deployment on the App Store. The course, conducted in English, welcomes 40 participants, offering a hands-on and collaborative learning experience. Priced at $69.99, this course is ideal for individuals with basic programming knowledge, ready to explore the exciting realm of iOS app development. Don't miss the opportunity to acquire the skills needed to create innovative and functional apps for Apple's mobile platform.",
+        "start_date": "2024-10-01",
+        "end_date": "2024-11-15",
+        "image": "https://images.unsplash.com/photo-1596558450255-7c0b7be9d56a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 69.99,
+        "n_participants": 40,
+        "level": "Intermediate",
+        "availability": true,
+        "language": "English"
+    },
+
+    {
+        "id": 19,
+        "name": "Business Analytics Fundamentals",
+        "description": "Explore the world of data-driven decision-making with our Beginner-level Business Analytics Fundamentals course. Gain valuable insights into business data and learn to make informed decisions using cutting-edge analytics tools. Join us from November 1, 2024, to December 15, 2024, and discover the fundamentals of data analysis, statistical modeling, and visualization techniques. The course, conducted in English, caters to beginners and welcomes 30 participants, offering a structured and practical approach to business analytics. Priced at $29.99, this course is perfect for individuals with a curiosity for data and a desire to understand how analytics can drive business success. Don't miss the opportunity to build a strong foundation in business analytics and embark on a journey towards data-driven decision excellence.",
+        "start_date": "2024-11-01",
+        "end_date": "2024-12-15",
+        "image": "https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 29.99,
+        "n_participants": 30,
+        "level": "Beginner",
+        "availability": true,
+        "language": "English"
+    },
+
+    {
+        "id": 20,
+        "name": "Responsive Web Design",
+        "description": "Master the art of creating user-friendly and visually appealing websites with our Intermediate-level Responsive Web Design course. Learn to design and develop websites that adapt seamlessly to various devices, providing an optimal viewing experience for users. Join us from December 1, 2024, to January 15, 2025, and delve into the principles of responsive design, HTML5, CSS3, and frameworks like Bootstrap. The course, conducted in English, accommodates 50 participants, offering a hands-on and collaborative learning environment. Priced at $79.99, this course is ideal for individuals with basic web development knowledge, ready to enhance their skills in creating responsive and accessible websites. Don't miss the opportunity to stay at the forefront of web design trends and deliver exceptional user experiences across desktops, tablets, and smartphones.",
+        "start_date": "2024-12-01",
+        "end_date": "2025-01-15",
+        "image": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 79.99,
+        "n_participants": 50,
+        "level": "Intermediate",
+        "availability": true,
+        "language": "English"
+    },
+
+    {
+        "id": 21,
+        "name": "Digital Painting Masterclass",
+        "description": "Immerse yourself in the realm of artistic expression with our Advanced-level Digital Painting Masterclass. This course is designed to help you master the art of digital painting and unleash your creativity to create breathtaking digital artworks. Join us from January 1, 2025, to February 15, 2025, and explore the techniques of digital painting, color theory, and composition. The course, conducted in English, accommodates 40 participants, offering a supportive and collaborative environment for artistic growth. Priced at $139.99, this masterclass is perfect for individuals with a passion for digital art and a desire to elevate their skills to an advanced level. Don't miss the opportunity to embark on a journey of artistic mastery and create digital paintings that captivate and inspire.",
+        "start_date": "2025-01-01",
+        "end_date": "2025-02-15",
+        "image": "https://plus.unsplash.com/premium_photo-1664297551940-224d6fb69aa2?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 139.99,
+        "n_participants": 40,
+        "level": "Advanced",
+        "availability": false,
+        "language": "English"
+    },
+
+    {
+        "id": 22,
+        "name": "Blockchain Fundamentals",
+        "description": "Dive into the transformative world of blockchain technology with our Intermediate-level Blockchain Fundamentals course. This program is designed to provide a comprehensive understanding of the basics of blockchain and its applications across various industries. Join us from February 1, 2025, to March 15, 2025, and explore the core concepts of blockchain, distributed ledger technology, and smart contracts. The course, conducted in English, welcomes 30 participants, offering a structured and interactive learning experience. Priced at $79.99, this course is ideal for individuals with a curiosity for emerging technologies and a desire to explore the potential impact of blockchain on business and society. Don't miss the opportunity to gain insights into this revolutionary technology and position yourself at the forefront of the blockchain revolution.",
+        "start_date": "2025-02-01",
+        "end_date": "2025-03-15",
+        "image": "https://images.unsplash.com/photo-1639322537504-6427a16b0a28?q=80&w=2832&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 79.99,
+        "n_participants": 30,
+        "level": "Intermediate",
+        "availability": false,
+        "language": "English"
+    },
+
+    {
+        "id": 23,
+        "name": "Public Speaking Mastery",
+        "description": "Unlock the art of effective communication with our Beginner-level Public Speaking Mastery course. This program is crafted to help you develop and master the skills needed for impactful public speaking, empowering you to overcome stage fright with confidence. Join us from March 1, 2025, to April 15, 2025, and explore the principles of effective communication, speech organization, and techniques to engage your audience. The course, conducted in English, welcomes 40 participants, providing a supportive and encouraging environment for beginners to build their public speaking prowess. Priced at $29.99, this course is perfect for individuals looking to enhance their communication skills and make a lasting impression in various professional and personal settings. Don't miss the opportunity to become a confident and compelling public speaker.",
+        "start_date": "2025-03-01",
+        "end_date": "2025-04-15",
+        "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2912&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 29.99,
+        "n_participants": 40,
+        "level": "Beginner",
+        "availability": false,
+        "language": "English"
+    },
+
+    {
+        "id": 24,
+        "name": "UX/UI Design Principles",
+        "description": "Immerse yourself in the world of user-centric design with our Advanced-level UX/UI Design Principles course. This comprehensive program is tailored to help you master the principles of user experience (UX) and user interface (UI) design, ensuring optimal user interaction and satisfaction. Join us from April 1, 2025, to May 15, 2025, and explore the fundamentals of user research, wireframing, prototyping, and usability testing. The course, conducted in English, accommodates 20 participants, providing an intensive and collaborative learning environment for advanced designers. Priced at $159.99, this course is ideal for individuals with a background in design looking to elevate their skills and create exceptional digital experiences. Don't miss the opportunity to become a proficient UX/UI designer and shape the future of digital interactions.",
+        "start_date": "2025-04-01",
+        "end_date": "2025-05-15",
+        "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?q=80&w=2948&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "price": 159.99,
+        "n_participants": 20,
+        "level": "Advanced",
+        "availability": false,
+        "language": "English"
+    }
+
+]
