@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Marketing"
+    },
+    {
+        "id": 2,
+        "name": "Photography"
+    },
+    {
+        "id": 3,
+        "name": "Language Learning"
+    },
+    {
+        "id": 4,
+        "name": "Personal Development"
+    },
+    {
+        "id": 5,
+        "name": "Graphic Design"
+    },
+    {
+        "id": 6,
+        "name": "Mobile App Development"
+    },
+    {
+        "id": 7,
+        "name": "Web Development"
+    },
+    {
+        "id": 8,
+        "name": "Data Science"
+    },
+    {
+        "id": 9,
+        "name": "Artificial Intelligence"
+    },
+    {
+        "id": 10,
+        "name": "E-commerce"
+    },
+    {
+        "id": 11,
+        "name": "Writing"
+    },
+    {
+        "id": 12,
+        "name": "UI/UX Design"
+    }
+]
