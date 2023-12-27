@@ -1,0 +1,142 @@
+[
+    {
+      "id": 1,
+      "name": "Alice",
+      "surname": "Johnson",
+      "email": "alice.johnson@example.com",
+      "password": "password123"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "surname": "Miller",
+      "email": "bob.miller@example.com",
+      "password": "securepass456"
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "surname": "Davis",
+      "email": "charlie.davis@example.com",
+      "password": "secretword789"
+    },
+    {
+      "id": 4,
+      "name": "Diana",
+      "surname": "Martin",
+      "email": "diana.martin@example.com",
+      "password": "strongpassword"
+    },
+    {
+      "id": 5,
+      "name": "Edward",
+      "surname": "Anderson",
+      "email": "edward.anderson@example.com",
+      "password": "myp@ssw0rd"
+    },
+    {
+      "id": 6,
+      "name": "Fiona",
+      "surname": "Smith",
+      "email": "fiona.smith@example.com",
+      "password": "secure123"
+    },
+    {
+      "id": 7,
+      "name": "George",
+      "surname": "Moore",
+      "email": "george.moore@example.com",
+      "password": "password321"
+    },
+    {
+      "id": 8,
+      "name": "Hannah",
+      "surname": "Taylor",
+      "email": "hannah.taylor@example.com",
+      "password": "mysecurepass"
+    },
+    {
+      "id": 9,
+      "name": "Ian",
+      "surname": "Wilson",
+      "email": "ian.wilson@example.com",
+      "password": "pass123word"
+    },
+    {
+      "id": 10,
+      "name": "Jasmine",
+      "surname": "Brown",
+      "email": "jasmine.brown@example.com",
+      "password": "securepass789"
+    },
+    {
+      "id": 11,
+      "name": "Kyle",
+      "surname": "Anderson",
+      "email": "kyle.anderson@example.com",
+      "password": "anderson2023"
+    },
+    {
+      "id": 12,
+      "name": "Luna",
+      "surname": "Thomas",
+      "email": "luna.thomas@example.com",
+      "password": "avapass123"
+    },
+    {
+      "id": 13,
+      "name": "Max",
+      "surname": "Harrison",
+      "email": "max.harrison@example.com",
+      "password": "harris789"
+    },
+    {
+      "id": 14,
+      "name": "Natalie",
+      "surname": "Miller",
+      "email": "natalie.miller@example.com",
+      "password": "white2023"
+    },
+    {
+      "id": 15,
+      "name": "Oscar",
+      "surname": "Johnson",
+      "email": "oscar.johnson@example.com",
+      "password": "ethanpass456"
+    },
+    {
+      "id": 16,
+      "name": "Penelope",
+      "surname": "Davis",
+      "email": "penelope.davis@example.com",
+      "password": "miajackson2023"
+    },
+    {
+      "id": 17,
+      "name": "Quinn",
+      "surname": "Thompson",
+      "email": "quinn.thompson@example.com",
+      "password": "alex123pass"
+    },
+    {
+      "id": 18,
+      "name": "Riley",
+      "surname": "Garcia",
+      "email": "riley.garcia@example.com",
+      "password": "gracepass789"
+    },
+    {
+      "id": 19,
+      "name": "Samuel",
+      "surname": "Rodriguez",
+      "email": "samuel.rodriguez@example.com",
+      "password": "liam2023"
+    },
+    {
+      "id": 20,
+      "name": "Tessa",
+      "surname": "Perez",
+      "email": "tessa.perez@example.com",
+      "password": "chloepass123"
+    }
+  ]
