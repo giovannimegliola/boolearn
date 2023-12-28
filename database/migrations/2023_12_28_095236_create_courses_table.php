@@ -19,7 +19,7 @@ return new class extends Migration {
             $table->dateTime('start_date');
             $table->dateTime('end_date');
             $table->string('image', 255);
-            $table->float('price', 4, 2);
+            $table->float('price', 6, 2);
             $table->unsignedSmallInteger('n_participants');
             $table->string('level', 255);
             $table->boolean('availability');
