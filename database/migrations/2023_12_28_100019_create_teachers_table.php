@@ -16,6 +16,7 @@ return new class extends Migration {
             $table->id();
             $table->string('name', 100)->index();
             $table->string('surname', 100)->index();
+            $table->string('image', 255);
             $table->string('email', 255);
             $table->timestamps();
         });
