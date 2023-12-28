@@ -21,7 +21,7 @@ class AccountsTableSeeder extends Seeder
             $newaccount = new Account();
             $newaccount-> name = $account['name'];
             $newaccount->surname = $account['surname'];
-            $newaccount->email = $accounts['email'];
+            $newaccount->email = $account['email'];
             $newaccount->password = $account['password'];
             $newaccount->save();
         }
