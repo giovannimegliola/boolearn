@@ -1,8 +1,10 @@
 @use './variables' as *;
 
 #my_header {
+    margin-bottom: 100px;
     nav {
         position: relative;
+        z-index: 1000;
         box-shadow: 4px 2px 4px #616161;
         ul {
             list-style: none;
@@ -85,11 +87,13 @@
 
     #jumbotron {
         width: 100%;
-        height: 55vh;
+        height: 70vh;
         background-image: url('/img/jumbotron.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top center;
+        position: relative;
+        z-index: 999;
         h1 {
             color: $prussian-blue;
         }
@@ -120,4 +124,37 @@
             font-size: 1.3em;
         }
     }
+
+    #subjumbo {
+        width: 95%;
+        background-color: $prussian-blue;
+        position: absolute;
+        left: -10px;
+        bottom: -40px;
+        z-index: 1000;
+        transform: skew(-13deg);
+        .img_container {
+            transform: skew(13deg);
+        }
+        img {
+            width: 70px;
+            display: block;
+            transform: scale(1.9);
+            margin-right: 20px;
+            margin-left: 50px;
+        }
+        h2 {
+            font-size: 1.4em;
+            margin: 0;
+            padding: 0 30px;
+            color: white;
+            transform: skew(13deg);
+        }
+    }
+    @media screen and (min-width: 992px) {
+    #subjumbo {
+        width: 54%;
+    }
+}
+    
 }

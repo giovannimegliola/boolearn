@@ -56,7 +56,7 @@
     {{-- jumosection --}}
     <section id="jumbotron">
         <div class="container py-5">
-            <h1 class="display-1 fw-bold pt-5">
+            <h1 class="display-1 fw-bold pt-5 mt-4">
                 Fuel your ambition
             </h1>
 
@@ -73,6 +73,17 @@
                 </a>
             </div>
         </div>
+        {{-- subjumbo --}}
+        <section id="subjumbo">
+            <div class="container d-flex justify-content-end align-items-center">
+                <div class="img_container">
+                    <img src="/img/book.webp" alt="book">
+                </div>
+                <h2>
+                    Recognized for innovation in career-relevant learning
+                </h2>
+            </div>
+        </section>
     </section>
 
 </header>
