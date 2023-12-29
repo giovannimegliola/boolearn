@@ -1,0 +1,82 @@
+@use './variables' as *;
+
+#my_header {
+    box-shadow: 4px 2px 4px #858585;
+    nav {
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            img {
+                width: 140px;
+                cursor: pointer;
+            }
+            .hamburger {
+                border: none;
+                font-size: 1.4em;
+            }
+            .dropdown-toggle::after {
+                display: none;
+            }
+            .learn_btn {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1.3em;
+                color: white;
+                background-color: $prussian-blue;
+                transition: all 0.15s ease-in-out;
+                i {
+                font-size: 0.75em;
+                }
+            }
+            .learn_btn:hover {
+                background-color: rgb(38, 91, 120);
+            }
+            .my_input {
+                border: 1px solid #858585;
+                color: #A6A6A6;
+            }
+            input {
+                border: none;
+                font-size: 0.85em;
+                width: 180px;
+    
+            }
+            a {
+                text-decoration: none;
+            }
+            .edX {
+                font-size: 0.85em;
+            }
+            .sign_in {
+                font-weight: 700;
+                font-size: 0.90em;
+                transition: all 0.15s ease-in-out;
+                a {
+                    color: #454545;
+                }
+            }
+            .sign_in:hover, .edX:hover {
+                background-color: #bdbbbb;
+            }
+            .register {
+                background-color: $fire-brick;
+                padding: 10px;
+                transform: skew(-13deg);
+                transition: all 0.15s ease-in-out;
+                a {
+                    color: white;
+                    display: inline-block;
+                    transform: skew(13deg);
+                    font-weight: 700;
+                    font-size: 0.90em;
+                }
+            }
+            .register:hover {
+                background-color: $barn-red;
+            }
+        }
+
+    }
+}
