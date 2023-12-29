@@ -1,5 +1,8 @@
 @use './partials/variables' as *;
 
+@use './partials/homemain' as *;
+
+
 $fa-font-path: "../webfonts" !default;
 
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
