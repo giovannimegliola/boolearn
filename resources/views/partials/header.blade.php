@@ -1,9 +1,12 @@
 <header id="my_header">
+    {{-- navbar --}}
     <nav class="d-flex justify-content-between align-items-center">
         {{-- left nav --}}
         <ul class="d-flex justify-content-center align-items-center">
             <li>
-                <img src="/img/logo.png" alt="logo">
+                <a href="{{route('home')}}">
+                    <img src="/img/logo.png" alt="logo">
+                </a>
             </li>
 
             {{-- dropdown --}}
@@ -13,7 +16,7 @@
                 </button>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">Learn</a></li>
-                    <li><a class="dropdown-item" href="#">Courses</a></li>
+                    <li><a class="dropdown-item" href="{{route('courses.index')}}">Courses</a></li>
                     <li><a class="dropdown-item" href="#">edX For Business</a></li>
                     <li><a class="dropdown-item" href="#">About</a></li>
                 </ul>
@@ -49,4 +52,27 @@
             </li>
         </ul>
     </nav>
+
+    {{-- jumosection --}}
+    <section id="jumbotron">
+        <div class="container py-5">
+            <h1 class="display-1 fw-bold pt-5">
+                Fuel your ambition
+            </h1>
+
+            <div class="py-5">
+                <input type="text" placeholder="Search our 4000+ courses">
+                <a role="button" href="#" class="search">
+                    Search
+                </a>
+            </div>
+
+            <div>
+                <a href="{{route('courses.index')}}" class="explore">
+                    Explore all courses
+                </a>
+            </div>
+        </div>
+    </section>
+
 </header>
