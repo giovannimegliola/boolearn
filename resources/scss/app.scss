@@ -1,7 +1,7 @@
 @use './partials/variables' as *;
 
 $fa-font-path: "../webfonts" !default;
-
+@use './partials/footer' as *;
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 @import "~@fortawesome/fontawesome-free/scss/regular";
 @import "~@fortawesome/fontawesome-free/scss/solid";
