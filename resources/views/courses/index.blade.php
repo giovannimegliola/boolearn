@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
-@section('title', 'Courses Details')
+@section('title', 'Courses')
 
 @section('content')
 <main>
-    <h1>Courses details</h1>
+    <h1>Courses</h1>
 </main>
 
 @endsection

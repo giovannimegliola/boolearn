@@ -8,7 +8,7 @@ use App\Models\Course;
 class HomeController extends Controller
 {
     public function index() {
-        $courses = Course::all();
-        return view('courses.home', compact('courses'));
+        $courses = Course::where('id','<', 5);
+        return view('home', compact('courses'));
     }
 }
