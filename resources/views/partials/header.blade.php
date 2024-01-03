@@ -5,7 +5,7 @@
         <ul class="d-flex justify-content-center align-items-center">
             <li>
                 <a href="{{route('home')}}">
-                    <img src="/img/logo.png" alt="logo">
+                    <img src="{{Vite::asset('resources/img/logo.png')}}" alt="logo">
                 </a>
             </li>
 
@@ -77,7 +77,7 @@
         <section id="subjumbo">
             <div class="container d-flex justify-content-end align-items-center">
                 <div class="img_container">
-                    <img src="/img/book.webp" alt="book">
+                    <img src="{{Vite::asset('resources/img/book.webp')}}" alt="book">
                 </div>
                 <h2>
                     Recognized for innovation in career-relevant learning
