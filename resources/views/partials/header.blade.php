@@ -38,7 +38,7 @@
         {{-- right nav --}}
         <ul class="d-flex justify-content-center align-items-center pe-2">
             <li class="px-4 d-none d-lg-block py-2 edX">
-                <a href="#" class="text-dark">edX For Business</a>
+                <a href="#" class="text-dark">Boolearn For Business</a>
             </li>
             <li class="py-2 px-4 sign_in">
                 <a href="#">
