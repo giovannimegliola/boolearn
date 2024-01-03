@@ -3,6 +3,8 @@
 @use './partials/homemain' as *;
 @use './partials/footer' as *;
 
+@use './partials/courses' as *;
+
 $fa-font-path: "../webfonts" !default;
 
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
