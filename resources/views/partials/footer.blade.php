@@ -1,6 +1,6 @@
 <footer>
     <div class="container d-flex justify-content-between w-100 pb-4 pt-4">
-        <a href="#"><img src="/public/img/logo.png" alt="boolearn footer logo"></a>
+        <a href="#"><img src="/img/" alt="boolearn footer logo"></a>
         <div>
             <ul class="list-unstyled d-flex">
                 <li class="mx-2"><a href="#" class="social-links"><i class="fa-brands fa-facebook"></i></a></li>
