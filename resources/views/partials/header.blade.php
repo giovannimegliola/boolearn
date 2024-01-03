@@ -30,7 +30,7 @@
             <li class="my_input px-3 py-2 ms-2 d-none d-md-block">
                 <input type="text" class="" placeholder="What do you want to learn?">
                 <span>
-                    <i class="fa-solid fa-magnifying-glass px-2"></i>
+                    <i class="fa-solid fa-magnifying-glass px-1"></i>
                 </span>
             </li>
         </ul>
