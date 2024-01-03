@@ -36,19 +36,22 @@
                 color: white;
                 background-color: $prussian-blue;
                 transition: all 0.15s ease-in-out;
-
                 i {
                     font-size: 0.75em;
                 }
-            }
 
+            }
+            
             .learn_btn:hover {
                 background-color: rgb(38, 91, 120);
             }
-
+            
             .my_input {
                 border: 1px solid #858585;
                 color: #A6A6A6;
+                i {
+                    font-size: 1em;
+                }
             }
 
             input {
