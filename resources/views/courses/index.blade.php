@@ -13,7 +13,7 @@
             <ul class="pb-1">
                 @foreach ($categories as $category) 
                 <li class="checkbox-wrapper">
-                    <input type="checkbox" id="category_{{$category->id}}" name="{{$category->name}}">
+                    <input type="checkbox" id="category_{{$category->id}}" name="category_{{$category->id}}">
                     <label for="category_{{$category->id}}">
                         {{$category->name}}
                     </label>
@@ -77,8 +77,8 @@
                 @php
                     $rand = rand(0,count($providers) - 1)
                 @endphp
-                <div class="col-11 col-md-6 col-xl-4 overflow-hidden">
-                    <div class="card overflow-hidden">
+                <div class="col-11 col-md-6 col-xl-4">
+                    <div class="card overflow-x-hidden">
                         <a href="{{route('courses.show', $course->id)}}" class="img_container">
                             <img src="{{$course->image}}" 
                             class="card-img-top" 
