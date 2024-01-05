@@ -4,12 +4,18 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Course;
+use App\Models\Category;
+use App\Models\Provider;
+use App\Models\Skill;
 
 class CourseController extends Controller
 {
     public function index()
     {
         $courses = Course::all();
+        $categories = Category::take(5)->get();
+        $skills = Skill::take(4)->get();
+        $providers = Provider::all();
         $topFooterContent =
             [
                 'Browse Courses' => [
@@ -66,6 +72,7 @@ class CourseController extends Controller
         $bottomFooterContent =
             [
                 'Boolearn' => [
+
                     'Boot Camps',
                     'About',
                     'Boolearn for Business',
