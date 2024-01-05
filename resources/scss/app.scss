@@ -3,6 +3,8 @@
 @use './partials/homemain' as *;
 @use './partials/footer' as *;
 
+
+
 $fa-font-path: "../webfonts" !default;
 
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
@@ -11,5 +13,3 @@ $fa-font-path: "../webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/brands";
 
 @import '~bootstrap/scss/bootstrap';
-
-
