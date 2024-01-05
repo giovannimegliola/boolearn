@@ -2,6 +2,11 @@
 
 #my_main{
 
+  .provider_logo{
+    height: 50px;
+    cursor: pointer;
+  }
+
   .mylink{
     color: $prussian-blue;
   }
@@ -38,26 +43,26 @@
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
   }
 
-  .card{
-    cursor: pointer;
-    overflow: hidden;
-    .mybtn:hover{
-      box-shadow: 0 0 5px 0 white;
-    }
-  }
+//   .card{
+//     cursor: pointer;
+//     overflow: hidden;
+//     .mybtn:hover{
+//       box-shadow: 0 0 5px 0 white;
+//     }
+//   }
 
-  .card img{
-    transition: transform .8s ease;
-    max-height: 170px;
-  }
-  .card:hover{
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
-    background-color: $prussian-blue;
-    color: white;
-  }
-  .card:hover img {
-    transform: scale(1.1);
-  }
+//   .card img{
+//     transition: transform .8s ease;
+//     max-height: 170px;
+//   }
+//   .card:hover{
+//     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+//     background-color: $prussian-blue;
+//     color: white;
+//   }
+//   .card:hover img {
+//     transform: scale(1.1);
+//   }
 
   #target{
     background-color: $prussian-blue;
@@ -98,8 +103,57 @@
     }
   }
 
+  .img_container {
+    height: 115px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    .card-img-top {
+        width: 100%;
+        display: block;
+    }
+}
+.provider_img {
+    height: 70px;
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    z-index: 10;
+}
+.card-body {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    h5 {
+        font-size: 1.1em;
+        font-weight: 700;
+        color: black;
+        margin: 0;
+        padding: 5px 0;
+    }
+    p {
+        font-size: 0.9em;
+        color: rgb(73, 73, 73);
+    }
+    span {
+        background-color: rgb(199, 199, 199);
+    }
+}
+.card {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.card:hover {
+    box-shadow: 2px 2px 6px $prussian-blue;
+    transform: scale(1.02);
+}
 
-
+.bgbadge{
+    background-color: $prussian-blue;
+}
 
 
 

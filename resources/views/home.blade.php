@@ -6,16 +6,25 @@
 
 <main id="my_main">
 
-   <div>
-    loghi providers
+
+
+
+    <div class="container d-flex justify-content-between " >
+        @foreach ($providers as $provider)
+        <div>
+            <img src="{{$provider->logo}}" alt="{{$provider->name}}" class="provider_logo">
+        </div>
+        @endforeach
    </div>
 
-   <div class="text-center">
+
+
+   <div class="text-center mt-5">
     <a href="#" class="mylink">Learn from 250+ leading institutions</a>
    </div>
 
    <section id="intro" class="container">
-        <h1 class="mt-5">
+        <h1 class="mt-5 fw-bold">
         <span class="my-title">New</span> on Boolearn
         </h1>
 
@@ -41,9 +50,15 @@
       <span class="badge text-bg-light">UI/UX Design</span>
 
       <div class="row py-4 gy-4">
-        @foreach ($courses as $course)
 
-        {{-- <div class="card overflow-x-hidden">
+        @foreach ($courses as $course)
+        @php
+        $rand = rand(0,count($providers) - 1)
+        @endphp
+
+        <div class="col-12 col-md-4 col-lg-3">
+
+        <div class="card overflow-x-hidden">
             <a href="{{route('courses.show', $course->id)}}" class="img_container">
                 <img src="{{$course->image}}"
                 class="card-img-top"
@@ -62,19 +77,8 @@
                 </div>
                 <span class="badge rounded-2 text-dark">Course</span>
             </div>
-        </div> --}}
-
-          <div class="col-12 col-md-4 col-lg-3">
-              <div class="card h-100 w-100">
-                  <img src="{{$course['image']}}" alt="{{$course['name']}}" class="card-img-top img-fluid">
-                  <div class="card-body">
-                      <h5 class="card-title">{{$course['name']}}</h5>
-                      <p class="card-text">{!! substr($course['description'], 0, 100) . '...' !!}</p>
-                      <a href="{{route('courses.show', $course->id)}}" class="text-bg-light btn mybtn">See more</a>
-                  </div>
-              </div>
-          </div>
-
+        </div>
+        </div>
         @endforeach
       </div>
 
@@ -84,30 +88,47 @@
    </section>
 
    <section id="top-courses" class="container">
-    <h2 class="fs-1">Explore top courses</h2>
+    <h2 class="fs-1 fw-bold py-2">Explore top courses</h2>
 
   <span class="badge text-bg-light me-3">Artificial Intelligence</span>
   <span class="badge text-bg-light me-3">Business</span>
-  <span class="badge text-bg-light me-3">Computer Science</span>
+  <span class="badge text-white bgbadge me-3">Computer Science</span>
   <span class="badge text-bg-light me-3">Data Science</span>
 
-  <div class="row py-4 gy-4">
-    @foreach ($topCourses as $course)
 
+  <div class="row py-4 gy-4">
+
+    @foreach ($topCourses as $course)
+    @php
+        $rand = rand(0,count($providers) - 1)
+    @endphp
     <div class="col-12 col-md-4 col-lg-3">
-        <div class="card h-100 w-100">
-            <img src="{{$course['image']}}" alt="{{$course['name']}}" class="card-img-top img-fluid">
-            <div class="card-body">
-                <h5 class="card-title">{{$course['name']}}</h5>
-                <p class="card-text">{!! substr($course['description'], 0, 100) . '...' !!}</p>
-                <a href="{{route('courses.show', $course->id)}}" class="text-bg-light btn mybtn">See more</a>
+
+    <div class="card overflow-x-hidden">
+        <a href="{{route('courses.show', $course->id)}}" class="img_container">
+            <img src="{{$course->image}}"
+            class="card-img-top"
+            alt="{{$course->name}}">
+        </a>
+
+        <img src="{{$providers[$rand]->logo}}"
+        alt="{{$providers[$rand]->name}}" class="provider_img">
+
+        <div class="card-body">
+            <div class="pt-3">
+                <h5 class="card-title">{{$course->name}}</h5>
+                <p class="card-text">
+                    {{$providers[$rand]->name}}
+                </p>
             </div>
+            <span class="badge rounded-2 text-dark">Course</span>
         </div>
     </div>
-
-
+    </div>
     @endforeach
   </div>
+
+
 
   <div class="d-flex justify-content-center align-items-center py-4">
     <a href="#" class="text-bg-light btn mybtn">Explore more Computer Science courses</a>
@@ -125,7 +146,7 @@
 
 
                 <div class="col-md-5 text-white py-5">
-                    <h5>FOR LEARNERS</h5>
+                    <h6>FOR LEARNERS</h6>
                     <p class="line">__</p>
                     <p class="fs-4">Propel your carrer, get a degree, or expand your knowledge at any level.</p>
 
@@ -159,7 +180,7 @@
             <div class="row">
 
               <div class="col-md-6">
-                <h2 class="fs-1 py-3">Learn and Grow</h2>
+                <h2 class="fs-1 py-3 fw-bold">Learn and Grow</h2>
                 <p>
                   Your Boolearn experience is grounded in cutting edge cognitive science.
                   With more than two dozen distinct learning features to help you to achieve your goals,
