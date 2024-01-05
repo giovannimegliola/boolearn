@@ -1,6 +1,6 @@
 <footer>
     <div class="container d-flex justify-content-between align-items-center w-100 pb-4 pt-4">
-        <a href="#"><img src="{{Vite::asset(/'resources/img/logo.png'}}" class="logo-footer" alt="boolearn footer logo"></a>
+        <a href="#"><img src="{{Vite::asset('/resources/img/logo.png'}}" class="logo-footer" alt="boolearn footer logo"></a>
         <div>
             <ul class="list-unstyled d-flex">
                 <li class="mx-2"><a href="#" class="social-links"><i class="fa-brands fa-facebook"></i></a></li>
@@ -53,10 +53,10 @@
         <p class="copyright">© 2024 Boolearn. All rights reserved.<br>进入网络空间</p>
         <div class="app-download-links large-column d-flex justify-content-between p-0 mb-5">
             <a href="#">
-                <img src="{{Vite::asset('resources/img/app-store-btn.png')}}" class="app-btn" alt="App Store-button">
+                <img src="{{Vite::asset('/resources/img/app-store-btn.png')}}" class="app-btn" alt="App Store-button">
             </a>
             <a href="#">
-                <img src="{{Vite::asset('resources/img/google-play-btn.png')}}" class="app-btn" alt="Google Play-button">
+                <img src="{{Vite::asset('/resources/img/google-play-btn.png')}}" class="app-btn" alt="Google Play-button">
             </a>
         </div>
     </div>
