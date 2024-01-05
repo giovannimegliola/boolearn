@@ -1,0 +1,107 @@
+@use './variables' as *;
+
+#my_main{
+
+  .mylink{
+    color: $prussian-blue;
+  }
+
+  nav{
+    .nav-link.active{
+      border-bottom: 3px solid $prussian-blue;
+    }
+  }
+
+  h1,h2{
+    color: $prussian-blue;
+  }
+
+  .my-title{
+    color: $fire-brick;
+  }
+
+  .mybtn{
+    color: $prussian-blue;
+    border: 1px solid $prussian-blue;
+  }
+
+  .mybtn:hover{
+    box-shadow: 0 0 5px 0 $prussian-blue;
+  }
+
+
+  .badge{
+    cursor: pointer;
+  }
+
+  .badge:hover{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .card{
+    cursor: pointer;
+    overflow: hidden;
+    .mybtn:hover{
+      box-shadow: 0 0 5px 0 white;
+    }
+  }
+
+  .card img{
+    transition: transform .8s ease;
+    max-height: 170px;
+  }
+  .card:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    background-color: $prussian-blue;
+    color: white;
+  }
+  .card:hover img {
+    transform: scale(1.1);
+  }
+
+  #target{
+    background-color: $prussian-blue;
+
+    .line{
+      color: $fire-brick;
+    }
+
+    .mtop{
+      margin-top: 85px;
+    }
+
+    .myarrow{
+      text-align: center;
+      background-color: $fire-brick;
+      height: 60px;
+      width: 60px;
+      cursor: pointer;
+    }
+
+    .myarrow:hover{
+      box-shadow: 0 0 5px 0 white;
+    }
+  }
+
+  #learning{
+    h5{
+      color: $prussian-blue;
+      font-weight: bold;
+    }
+  }
+
+  #vision{
+    background-color: $prussian-blue;
+    .mybtn:hover{
+      box-shadow: 0 0 5px 0 white;
+
+    }
+  }
+
+
+
+
+
+
+
+}
