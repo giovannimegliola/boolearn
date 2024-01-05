@@ -6,9 +6,6 @@
 
 <main id="my_main">
 
-
-
-
     <div class="container d-flex justify-content-between " >
         @foreach ($providers as $provider)
         <div>
@@ -16,8 +13,6 @@
         </div>
         @endforeach
    </div>
-
-
 
    <div class="text-center mt-5">
     <a href="#" class="mylink">Learn from 250+ leading institutions</a>
@@ -36,7 +31,7 @@
               <a class="nav-link" href="#">Bachelor's Degrees</a>
             </div>
         </div>
-      </nav>
+       </nav>
 
       <span class="badge text-bg-light me-3">Artificial Intelligence</span>
       <span class="badge text-bg-light me-3">Business Management & Strategy</span>
@@ -60,13 +55,10 @@
 
         <div class="card overflow-x-hidden">
             <a href="{{route('courses.show', $course->id)}}" class="img_container">
-                <img src="{{$course->image}}"
-                class="card-img-top"
-                alt="{{$course->name}}">
+                <img src="{{$course->image}}" class="card-img-top" alt="{{$course->name}}">
             </a>
 
-            <img src="{{$providers[$rand]->logo}}"
-            alt="{{$providers[$rand]->name}}" class="provider_img">
+            <img src="{{$providers[$rand]->logo}}" alt="{{$providers[$rand]->name}}" class="provider_img">
 
             <div class="card-body">
                 <div class="pt-3">
@@ -103,7 +95,6 @@
         $rand = rand(0,count($providers) - 1)
     @endphp
     <div class="col-12 col-md-4 col-lg-3">
-
     <div class="card overflow-x-hidden">
         <a href="{{route('courses.show', $course->id)}}" class="img_container">
             <img src="{{$course->image}}"
@@ -128,8 +119,6 @@
     @endforeach
   </div>
 
-
-
   <div class="d-flex justify-content-center align-items-center py-4">
     <a href="#" class="text-bg-light btn mybtn">Explore more Computer Science courses</a>
   </div>
@@ -141,7 +130,9 @@
             <div class="row">
 
                 <div class="col-md-6 py-4">
-                    <img src="immagine.jpg" alt="immagine" class="img-fluid">
+
+                    <img src="{{Vite::asset('resources/img/learning.jpeg')}}" alt="learning image" class="img-fluid targetimg">
+
                 </div>
 
 
@@ -150,11 +141,11 @@
                     <p class="line">__</p>
                     <p class="fs-4">Propel your carrer, get a degree, or expand your knowledge at any level.</p>
 
-                    <h5 class="mt-4">FOR BUSINESSES</h5>
+                    <h6 class="mt-4">FOR BUSINESSES</h6>
                     <p class="line">__</p>
                     <p class="fs-4">Upskill employees and build a culture of learning.</p>
 
-                    <h5 class="mt-4">FOR EDUCATORS</h5>
+                    <h6 class="mt-4">FOR EDUCATORS</h6>
                     <p class="line">__</p>
                     <p class="fs-4">Expand your curriculum through blended learning.</p>
                 </div>
@@ -203,15 +194,18 @@
                 </p>
               </div>
 
-              <div class="col-md-6">
-                <img src="image.jpg" class="img-fluid" alt="Immagine">
+              <div class="col-md-6 d-flex align-items-center">
+                <div>
+                    <img src="{{Vite::asset('resources/img/brain.webp')}}" alt="brain image" class="img-fluid">
+                </div>
+
               </div>
             </div>
         </div>
     </section>
 
     <section id="vision">
-        <div class="container mt-5 py-5 text-white">
+        <div class="container mt-5 py-5 text-white globecont">
             <div class="row">
 
               <div class="col-md-6">
@@ -226,8 +220,10 @@
 
 
 
-              <div class="col-md-6">
-                <img src="path-to-your-image.jpg" class="img-fluid" alt="Immagine">
+              <div class="col-md-6 d-flex align-items-end">
+                <div class="myglobe">
+                    <img src="{{Vite::asset('resources/img/globe-dark-lg.webp')}}" alt="earth image" class="img-fluid">
+                </div>
               </div>
 
             </div>

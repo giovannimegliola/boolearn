@@ -67,6 +67,12 @@
   #target{
     background-color: $prussian-blue;
 
+    .targetimg{
+        height: 500px;
+        width: 500px;
+    }
+
+
     .line{
       color: $fire-brick;
     }
@@ -99,6 +105,17 @@
     background-color: $prussian-blue;
     .mybtn:hover{
       box-shadow: 0 0 5px 0 white;
+
+    }
+
+    .globecont{
+        position: relative;
+    }
+
+    .myglobe{
+        position: absolute;
+        bottom: 0;
+        left: auto;
 
     }
   }
