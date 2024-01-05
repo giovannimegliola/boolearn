@@ -1,21 +1,31 @@
 .logo-footer{
-    width: 140px;
+    width: 200px;
 }
 .social-links{
-    color: black;
+    color: #003049ff;
 }
 .list-title{
-    word-spacing: 10px;
+    word-spacing: 9px;
+    color: #003049ff;
 }
 .footer-links{
-    color: black;
+    color: #003049ff;
     text-decoration: none;
+    line-height: 2rem;
 }
 .footer-links:hover{
     text-decoration: underline;
 }
+.see-more{
+    color: #669bbcff;
+    text-decoration: none;
+}
+.see-more:hover{
+    color: #003049ff;
+    text-decoration: underline;
+}
 .bottom-list{
-    padding-right: 50px;
+    padding-right: 70px;
 }
 #top-foot{
     padding-top: 30px;
@@ -24,11 +34,17 @@
 #bottom-foot{
     padding-top: 30px;
 }
+.select-lang, .copyright{
+    color: #003049ff;
+}
 .app-btn{
-    width: 140px;
+    width: 160px;
     padding-left: 20px;
 }
 // Icons
 i{
     font-size: 2rem;
 }
+
+
+
