@@ -96,7 +96,7 @@ class CourseController extends Controller
                     'Trademark Policy',
                 ]
             ];
-        return view('courses.index', compact('courses', 'topFooterContent', 'bottomFooterContent'));
+        return view('courses.index', compact('courses', 'topFooterContent', 'bottomFooterContent', 'categories', 'skills', 'providers'));
     }
 
     public function show($id)
