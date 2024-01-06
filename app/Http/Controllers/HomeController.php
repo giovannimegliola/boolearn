@@ -4,11 +4,26 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Course;
+use App\Models\Provider;
+
 
 class HomeController extends Controller
 {
     public function index() {
-        $courses = Course::where('id','<', 5);
+
+        $courses = Course::all()
+        ->where('id','>', 9)
+        ->where('id', '<', 14);
+
+        $topCourses = Course::where('id', '=', 6)
+        ->orWhere('id', '=', 8)
+        ->orWhere('id', '=', 20)
+        ->orWhere('id', '=', 18)->get();
+
+        $providers = Provider::all();
+
+
+        
         $topFooterContent =
         [
             'Browse Courses' => [
@@ -39,6 +54,10 @@ class HomeController extends Controller
                 'Terms of Service', 'Privacy Policy', 'Cookie Policy', 'Accessibility Policy', 'Trademark Policy',
             ]
         ];
-        return view('home', compact('courses', 'topFooterContent', 'bottomFooterContent'));
+        return view('home', compact('courses', 'topFooterContent', 'bottomFooterContent','topCourses','providers'));
+
     }
 }
+
+
+

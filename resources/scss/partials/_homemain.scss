@@ -1,0 +1,154 @@
+@use './variables' as *;
+
+#my_main{
+
+  .provider_logo{
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .mylink{
+    color: $prussian-blue;
+  }
+
+  nav{
+    .nav-link.active{
+      border-bottom: 3px solid $prussian-blue;
+    }
+  }
+
+  h1,h2{
+    color: $prussian-blue;
+  }
+
+  .my-title{
+    color: $fire-brick;
+  }
+
+  .mybtn{
+    color: $prussian-blue;
+    border: 1px solid $prussian-blue;
+  }
+
+  .mybtn:hover{
+    box-shadow: 0 0 5px 0 $prussian-blue;
+  }
+
+
+  .badge{
+    cursor: pointer;
+  }
+
+  .badge:hover{
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  #target{
+    background-color: $prussian-blue;
+
+    .targetimg{
+        height: 500px;
+        width: 500px;
+    }
+
+
+    .line{
+      color: $fire-brick;
+    }
+
+    .mtop{
+      margin-top: 85px;
+    }
+
+    .myarrow{
+      text-align: center;
+      background-color: $fire-brick;
+      height: 60px;
+      width: 60px;
+      cursor: pointer;
+    }
+
+    .myarrow:hover{
+      box-shadow: 0 0 5px 0 white;
+    }
+  }
+
+  #learning{
+    h5{
+      color: $prussian-blue;
+      font-weight: bold;
+    }
+  }
+
+  #vision{
+    background-color: $prussian-blue;
+    .mybtn:hover{
+      box-shadow: 0 0 5px 0 white;
+
+    }
+
+    .globecont{
+        position: relative;
+    }
+
+    .myglobe{
+        position: absolute;
+        bottom: 0;
+        left: auto;
+
+    }
+  }
+
+  .img_container {
+    height: 115px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    .card-img-top {
+        width: 100%;
+        display: block;
+    }
+}
+.provider_img {
+    height: 70px;
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    z-index: 10;
+}
+.card-body {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    h5 {
+        font-size: 1.1em;
+        font-weight: 700;
+        color: black;
+        margin: 0;
+        padding: 5px 0;
+    }
+    p {
+        font-size: 0.9em;
+        color: rgb(73, 73, 73);
+    }
+    span {
+        background-color: rgb(199, 199, 199);
+    }
+}
+.card {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.card:hover {
+    box-shadow: 2px 2px 6px $prussian-blue;
+    transform: scale(1.02);
+}
+
+.bgbadge{
+    background-color: $prussian-blue;
+}
+
+}
