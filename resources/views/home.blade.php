@@ -217,9 +217,6 @@
                 <a href="#" class="text-bg-light btn mybtn">Learn more</a>
               </div>
 
-
-
-
               <div class="col-md-6 d-flex align-items-end">
                 <div class="myglobe">
                     <img src="{{Vite::asset('resources/img/globe-dark-lg.webp')}}" alt="earth image" class="img-fluid">
@@ -227,18 +224,9 @@
               </div>
 
             </div>
-          </div>
-
+        </div>
 
     </section>
-
-
-
-
-
-
-
-
 
 </main>
 
