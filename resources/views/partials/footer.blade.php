@@ -1,6 +1,6 @@
 <footer>
     <div class="container d-flex justify-content-between align-items-center w-100 pb-4 pt-4">
-        <a href="#"><img src="{{Vite::asset('/resources/img/logo.png')}}" class="logo-footer" alt="boolearn footer logo"></a>
+        <a href="#"><img src="{{Vite::asset('/resources/img/our_logo.png')}}" class="logo-footer" alt="boolearn-footer-logo"></a>
         <div>
             <ul class="list-unstyled d-flex">
                 <li class="mx-2"><a href="#" class="social-links"><i class="fa-brands fa-facebook"></i></a></li>
