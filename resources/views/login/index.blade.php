@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel base Login</title>
+    <title>Boolearn | Login</title>
 
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -19,32 +19,31 @@
     <main id="login">
         <div class="row h-100">
             <div class="col-6">
-                <img src="https://edx-cdn.org/v3/prod/logo-white.svg" class="logo-ed" alt="logo-edX">
+                <a href="{{route('home')}}"><img src="{{Vite::asset('/resources/img/vectorlogo.png')}}" class="logo-ed" alt="logo-edX"></a>
                 <div class="text-title d-flex justify-content-center align-items-center align-content-center">
                     <div class="yellow-line mx-4"></div>
-                    <h1 class="text-light mx-3">Inizia a imparare <span class="text-info">con edX</span></h1>
+                    <h1 class="text-light mx-3">Start learning <span class="text-info">with Boolearn</span></h1>
                 </div>
 
             </div>
             <div class="col-6">
                 <div class="h-100 d-flex flex-column  justify-content-center align-items-center align-content-center">
                     <section id="Accedi">
-                        <h2>Accedi</h2>
-                        <span>Devi ancora registrarti?<a href="{{route('login.show')}}" class="text-primary"> Clicca quì.</a> </span>
+                        <h2>Log in</h2>
+                        <span>Do you need to register?<a href="{{route('login.show')}}" class="text-primary"> Click here.</a> </span>
                         <form action="" method="GET">
                             <input type="text" class=" form-control rounded-0 my-2" name="user" value=""
-                                placeholder="Nome utente o email">
+                                placeholder="Insert Name or email">
                             <input type="text" class="form-control rounded-0 my-2" name="password" value="" placeholder="Password">
 
-                            <button type="submit" class="btn rounded-0 btn-red my-3">Accedi</button>
-                            <a href="#" class="btn rounded-0 btn-white my-3 mx-2">Password dimenticata</a>
+                            <button type="submit" class="btn rounded-0 btn-red my-3">Log in</button>
+                            <a href="#" class="btn rounded-0 btn-white my-3 mx-2">Forgot your password?</a>
                         </form>
 
-                        <h5>Oppure accedi con:</h5>
+                        <h5>Alternatively, you can log in with:</h5>
                         <button class="btn btn-white p-0 text-start fs-6"><a
                                 href="https://courses.edx.org/enterprise/login"><i
-                                    class="fa-solid fa-landmark fs-6 px-2"></i>Credenziali
-                                aziendali o scolastiche</a></button>
+                                    class="fa-solid fa-landmark fs-6 px-2"></i>School or work credentials</a></button>
 
 
 

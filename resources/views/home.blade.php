@@ -75,7 +75,7 @@
       </div>
 
       <div class="d-flex justify-content-center align-items-center py-4">
-        <a href="#" class="text-bg-light btn mybtn">Explore more Executive Education</a>
+        <a href="{{route('courses.index')}}" class="text-bg-light btn mybtn">Explore more Executive Education</a>
       </div>
    </section>
 
@@ -125,14 +125,14 @@
 
     </section>
 
-    <section id="target">
-        <div class="container mt-5">
+    <section id="target" class="overflow-hidden">
+        <div class="container mt-5 ">
             <div class="row">
 
                 <div class="col-md-6 py-4">
-
-                    <img src="{{Vite::asset('resources/img/learning.jpeg')}}" alt="learning image" class="img-fluid targetimg">
-
+                    <div class="skew-container">
+                        <img src="{{Vite::asset('resources/img/learning.jpeg')}}" alt="learning image" class="img-fluid targetimg">
+                    </div>
                 </div>
 
 

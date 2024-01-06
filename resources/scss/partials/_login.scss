@@ -1,11 +1,14 @@
+@use './variables' as *;
+
 #login{
-    background: rgb(14,54,57);
-    background: linear-gradient(100deg, rgba(14,54,57,1) 0%, rgba(14,54,57,1) 45%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 100%);
+    background: $prussian-blue;
+    background: linear-gradient(100deg, $prussian-blue 0%, $prussian-blue 45%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 100%);
     height: 100vh;
     overflow-x: hidden;
     .logo-ed{
         width: 80px;
-       margin: 20px;
+        margin: 20px;
+        filter: brightness(0) invert(1);
     }
 
     .text-title{

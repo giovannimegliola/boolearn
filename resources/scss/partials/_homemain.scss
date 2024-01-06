@@ -45,10 +45,17 @@
 
   #target{
     background-color: $prussian-blue;
+    position: relative;
 
     .targetimg{
-        height: 500px;
-        width: 500px;
+        width: 400px;
+        transform: skewX(16deg);
+    }
+    .skew-container{
+        transform: scale(1.1);
+        position: absolute;
+        top: 0;
+        left: 106px;
     }
 
 
@@ -62,10 +69,15 @@
 
     .myarrow{
       text-align: center;
+      transform: skewX(16deg);
       background-color: $fire-brick;
       height: 60px;
       width: 60px;
       cursor: pointer;
+
+      i{
+        transform: skewX(-16deg);
+      }
     }
 
     .myarrow:hover{
