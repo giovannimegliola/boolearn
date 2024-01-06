@@ -1,0 +1,66 @@
+#login{
+    background: rgb(14,54,57);
+    background: linear-gradient(100deg, rgba(14,54,57,1) 0%, rgba(14,54,57,1) 45%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 100%);
+    height: 100vh;
+    overflow-x: hidden;
+    .logo-ed{
+        width: 80px;
+       margin: 20px;
+    }
+
+    .text-title{
+        height: 80%;
+        width: 70%;
+        padding: 10%;
+
+    }
+    h1{
+        font-size: 5em;
+        font-weight: 700;
+    }
+    .yellow-line{
+        height:40%;
+        width: 5px;
+        padding: 4px;
+        background-color: #f0cc00;
+        transform: skew(-13deg);
+    }
+    #Accedi{
+     padding-left: 20%;
+     padding-right: 20%;
+    }
+    #Registrazione{
+        padding-left: 20%;
+        padding-right: 20%;
+       }
+    .btn-red{
+        background-color: #de190c ;
+        color: white;
+        font-size: 1.2em;
+    }
+    .btn-red:hover{
+        background-color: #921108;
+    }
+
+    .btn-white{
+        background-color: transparent;
+        color: black;
+        font-size: 1.2em;
+    }
+
+    .btn-white:hover{
+       text-decoration: underline;
+    }
+
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    .condizioni{
+        font-size: 0.8em;
+    }
+}

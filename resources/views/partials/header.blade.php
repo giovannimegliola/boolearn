@@ -5,7 +5,7 @@
         <ul class="d-flex justify-content-center align-items-center">
             <li>
                 <a href="{{route('home')}}">
-                    <img src="{{Vite::asset('resources/img/logo.png')}}" alt="logo">
+                    <img src="{{Vite::asset('resources/img/our_logo.png')}}" alt="logo">
                 </a>
             </li>
 
@@ -17,7 +17,7 @@
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">Learn</a></li>
                     <li><a class="dropdown-item" href="{{route('courses.index')}}">Courses</a></li>
-                    <li><a class="dropdown-item" href="#">edX For Business</a></li>
+                    <li><a class="dropdown-item" href="#">Boolearn For Business</a></li>
                     <li><a class="dropdown-item" href="#">About</a></li>
                 </ul>
             </li>
@@ -38,15 +38,15 @@
         {{-- right nav --}}
         <ul class="d-flex justify-content-center align-items-center pe-2">
             <li class="px-4 d-none d-lg-block py-2 edX">
-                <a href="#" class="text-dark">edX For Business</a>
+                <a href="#" class="text-dark">Boolearn For Business</a>
             </li>
             <li class="py-2 px-4 sign_in">
-                <a href="#">
+                <a href="{{route('login.index')}}">
                     Sign in
                 </a>
             </li>
             <li class="register ms-2">
-                <a href="#">
+                <a href="{{route('login.show')}}">
                     Register for free
                 </a>
             </li>
