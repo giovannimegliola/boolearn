@@ -1,0 +1,97 @@
+@use './variables' as *;
+
+
+
+#course-show {
+    color: #0b252a;
+
+    .container {
+        max-width: 900px !important;
+    }
+
+    h2 {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    p {
+        line-height: 1.75;
+    }
+
+    #specifics {
+        height: 200px;
+        background-color: rgba(226, 218, 218, 0.178);
+        padding: 20px;
+        width: 700px;
+        margin-bottom: 40px;
+
+        li {
+            padding: 5px 0;
+
+            div,
+            h6 {
+                display: inline;
+            }
+        }
+    }
+
+    .row {
+        margin-bottom: 20px;
+
+        .col-4 {
+            width: 30% !important;
+            height: 400px;
+            background-color: #0b252a;
+            color: white;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px;
+            transition: all 0.5s ease;
+
+
+            img {
+                margin: 40px;
+                border-radius: 50%;
+                width: 180px;
+                height: 140px;
+            }
+        }
+
+        .col-4:hover {
+
+            transform: scale(1.05);
+            box-shadow: 2px 2px 6px black;
+            cursor: pointer
+        }
+    }
+
+    .share {
+        background-color: #e0dddb;
+        padding: 30px;
+
+        ul {
+            list-style: none !important;
+
+            li {
+                margin-right: 16px;
+
+                a {
+                    color: #0b252a;
+
+                    :hover {
+                        color: rgb(63, 63, 212);
+                    }
+                }
+
+                :hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    hr {
+        margin: 0 !important;
+    }
+}

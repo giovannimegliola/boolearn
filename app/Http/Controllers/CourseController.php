@@ -7,6 +7,7 @@ use App\Models\Course;
 use App\Models\Category;
 use App\Models\Provider;
 use App\Models\Skill;
+use App\Models\Teacher;
 
 class CourseController extends Controller
 {
@@ -181,6 +182,60 @@ class CourseController extends Controller
                     'Trademark Policy',
                 ]
             ];
-        return view('courses.show', compact('course', 'topFooterContent', 'bottomFooterContent'));
+
+
+        $skillsDescriptions = [
+            1 => "Proficiency in various programming languages such as Java, Python, C++, and JavaScript.",
+            2 => "Experience in creating responsive and dynamic websites using HTML, CSS, and JavaScript frameworks.",
+            3 => "Knowledge of designing, implementing, and managing databases using SQL and NoSQL technologies.",
+            4 => "Ability to analyze and interpret complex data sets to provide valuable insights and support decision-making.",
+            5 => "Creating mobile applications for iOS and Android platforms using languages like Swift, Kotlin, or React Native.",
+            6 => "Understanding and configuring computer networks, including protocols, routers, and switches.",
+            7 => "Implementing security measures to protect systems and networks from cyber threats and attacks.",
+            8 => "Experience with cloud platforms like AWS, Azure, or Google Cloud for scalable and flexible solutions.",
+            9 => "Ensuring the quality of software through systematic testing and debugging processes.",
+            10 => "Using version control systems to track and manage changes in codebase collaboratively.",
+            11 => "Knowledge of fundamental algorithms and data structures for efficient problem-solving.",
+            12 => "Applying machine learning techniques to develop predictive models and data-driven solutions.",
+            13 => "Understanding and implementing AI algorithms and systems for automation and intelligent decision-making.",
+            14 => "Integrating development and operations processes to achieve faster and more reliable software delivery.",
+            15 => "Creating user-friendly interfaces and experiences through effective design principles and usability testing.",
+            16 => "Proficiency in working with Linux/Unix-based operating systems for server administration and development.",
+            17 => "Using scripting languages for automation, task scheduling, and system administration.",
+            18 => "Experience with agile development methodologies for iterative and collaborative project management.",
+            19 => "Utilizing virtualization technologies like VMware or VirtualBox for efficient resource management.",
+            20 => "Ability to analyze and solve complex problems through logical thinking and creative solutions.",
+        ];
+
+        $providers = Provider::all();
+        $skills = Skill::all();
+        $teachers = Teacher::all();
+        $arrayTeachers = $this->teachersArr($teachers);
+        $arraySkills = $this->skillsArr($skillsDescriptions);
+        return view('courses.show', compact('course', 'providers', 'skills', 'topFooterContent', 'bottomFooterContent', 'teachers', 'arrayTeachers', 'arraySkills'));
+    }
+
+    public function teachersArr($teachers)
+    {
+        $teachersarr = [];
+        while (count($teachersarr) < 3) {
+            $randomTeacher = $teachers[rand(1, count($teachers) - 1)];
+            if (!in_array($randomTeacher, $teachersarr)) {
+                $teachersarr[] = $randomTeacher;
+            }
+        }
+        return $teachersarr;
+    }
+
+    public function skillsArr($skills)
+    {
+        $skillsarr = [];
+        while (count($skillsarr) < 10) {
+            $randomSkill = $skills[rand(1, count($skills) - 1)];
+            if (!in_array($randomSkill, $skillsarr)) {
+                $skillsarr[] = $randomSkill;
+            }
+        }
+        return $skillsarr;
     }
 }
