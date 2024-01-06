@@ -41,12 +41,12 @@
                 <a href="#" class="text-dark">edX For Business</a>
             </li>
             <li class="py-2 px-4 sign_in">
-                <a href="#">
+                <a href="{{route('login.index')}}">
                     Sign in
                 </a>
             </li>
             <li class="register ms-2">
-                <a href="#">
+                <a href="{{route('login.show')}}">
                     Register for free
                 </a>
             </li>

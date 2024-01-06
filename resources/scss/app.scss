@@ -2,7 +2,7 @@
 @use './partials/header' as *;
 @use './partials/homemain' as *;
 @use './partials/footer' as *;
-
+@use './partials/login' as *;
 @use './partials/courses' as *;
 
 $fa-font-path: "../webfonts" !default;
