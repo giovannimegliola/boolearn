@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\CourseController;
+use App\Http\Controllers\AccountController;
 
 
 
@@ -22,3 +23,7 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/courses', [CourseController::class, 'index'])->name('courses.index');
 
 Route::get('/courses/{id}', [CourseController::class, 'show'])->name('courses.show');
+
+Route::get('/login/accedi', [AccountController::class, 'index'])->name('login.index');
+
+Route::get('/login/registrazione', [AccountController::class, 'show'])->name('login.show');

@@ -1,7 +1,9 @@
 @use './partials/variables' as *;
-
+@use './partials/header' as *;
 @use './partials/homemain' as *;
-
+@use './partials/footer' as *;
+@use './partials/login' as *;
+@use './partials/courses' as *;
 
 $fa-font-path: "../webfonts" !default;
 
@@ -11,5 +13,3 @@ $fa-font-path: "../webfonts" !default;
 @import "~@fortawesome/fontawesome-free/scss/brands";
 
 @import '~bootstrap/scss/bootstrap';
-
-
