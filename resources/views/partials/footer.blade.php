@@ -1,8 +1,8 @@
 <footer>
-    <div class="container d-flex justify-content-between align-items-center w-100 pb-4 pt-4">
-        <a href="#"><img src="{{Vite::asset('/resources/img/our_logo.png')}}" class="logo-footer" alt="boolearn-footer-logo"></a>
+    <div class="container d-flex justify-content-between align-items-center w-100 pb-5 pt-5">
+        <a href="#"><img src="{{Vite::asset('/resources/img/vectorlogo-0.png')}}" class="logo-footer" alt="boolearn-footer-logo"></a>
         <div>
-            <ul class="list-unstyled d-flex">
+            <ul class="list-unstyled d-flex mb-0">
                 <li class="mx-2"><a href="https://www.facebook.com/?locale=it_IT" target="_blank" class="social-links"><i class="fa-brands fa-facebook"></i></a></li>
                 <li class="mx-2"><a href="https://twitter.com/?lang=it" target="_blank" class="social-links"><i class="fa-brands fa-twitter"></i></a></li>
                 <li class="mx-2"><a href="https://it.linkedin.com/?src=go-pa&trk=sem-ga_campid.20677489327_asid.153452322614_crid.677545198980_kw.linkedin_d.c_tid.kwd-148086543_n.g_mt.e_geo.1008089&mcid=7120409760495009793&cid=&gclid=Cj0KCQiAkeSsBhDUARIsAK3tieesIPeYjr2BXvqWmoaQRjgCyUw8kSmNsRPxLwDcms5lF4q2Ua3rOmgaArXiEALw_wcB&gclsrc=aw.ds" target="_blank" class="social-links"><i class="fa-brands fa-linkedin"></i></a></li>
