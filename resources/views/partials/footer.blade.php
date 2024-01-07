@@ -25,7 +25,7 @@
             @endforeach
         </div>
       </div>
-    <div class="container d-flex justify-content-between" id="bottom-foot">
+    <div class="container d-flex justify-content-between flex-wrap" id="bottom-foot">
         <div class="d-flex">
             @foreach($bottomFooterContent as $sectionTitle => $items)
                 <div class="bottom-list">
