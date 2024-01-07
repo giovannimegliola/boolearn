@@ -4,9 +4,11 @@
     margin-bottom: 100px;
 
     nav {
-        position: relative;
+        position: fixed;
         z-index: 1000;
         box-shadow: 4px 2px 4px #616161;
+        width:100%;
+        top:0;
 
         ul {
             list-style: none;
@@ -46,11 +48,11 @@
                 }
 
             }
-            
+
             .learn_btn:hover {
                 background-color: rgb(38, 91, 120);
             }
-            
+
             .my_input {
                 border: 1px solid #858585;
                 color: #A6A6A6;
@@ -121,6 +123,7 @@
         background-position: top center;
         position: relative;
         z-index: 999;
+        margin-top: 74px;
 
         h1 {
             color: $prussian-blue;

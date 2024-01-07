@@ -1,6 +1,6 @@
 <header id="my_header">
     {{-- navbar --}}
-    <nav class="d-flex justify-content-between align-items-center">
+    <nav class="d-flex justify-content-between align-items-center bg-white">
         {{-- left nav --}}
         <ul class="d-flex justify-content-center align-items-center">
             <li>

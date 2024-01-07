@@ -6,12 +6,14 @@
 
 <main id="my_main">
 
-    <div class="container d-flex justify-content-between " >
+    <div class="container" >
+        <div class="row d-flex justify-content-center align-items-center">
         @foreach ($providers as $provider)
-        <div>
-            <img src="{{$provider->logo}}" alt="{{$provider->name}}" class="provider_logo">
+            <div class="col-6 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-center align-items-center my-4">
+                <img src="{{$provider->logo}}" alt="{{$provider->name}}" class="provider_logo">
+            </div>
+            @endforeach
         </div>
-        @endforeach
    </div>
 
    <div class="text-center mt-5">
@@ -127,16 +129,16 @@
 
     <section id="target" class="overflow-hidden">
         <div class="container mt-5 ">
-            <div class="row">
+            <div class="row justify-content-center align-items-center">
 
-                <div class="col-md-6 py-4">
+                <div class="col-xxl-5 py-4 d-none d-xxl-block ">
                     <div class="skew-container">
                         <img src="{{Vite::asset('resources/img/learning.jpeg')}}" alt="learning image" class="img-fluid targetimg">
                     </div>
                 </div>
 
 
-                <div class="col-md-5 text-white py-5">
+                <div class="col-8 col-md-10 col-xl-9 col-xxl-5 text-white py-5">
                     <h6>FOR LEARNERS</h6>
                     <p class="line">__</p>
                     <p class="fs-4">Propel your carrer, get a degree, or expand your knowledge at any level.</p>
@@ -150,7 +152,7 @@
                     <p class="fs-4">Expand your curriculum through blended learning.</p>
                 </div>
 
-                <div class="col-md-1 fs-1 text-white mtop">
+                <div class="col-2 fs-1 text-white mtop d-flex flex-column justify-content-between">
                     <div class="myarrow my-5">
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
@@ -208,7 +210,7 @@
         <div class="container mt-5 py-5 text-white globecont">
             <div class="row">
 
-              <div class="col-md-6">
+              <div class="col-12 col-lg-6 position-relative z-2">
                 <h5>Our vision</h5>
                 <p class="fs-1 fw-semibold ">
                   As a mission driven organization, we're relentlessly pursuing our vision of a world where every learner
@@ -217,7 +219,7 @@
                 <a href="#" class="text-bg-light btn mybtn">Learn more</a>
               </div>
 
-              <div class="col-md-6 d-flex align-items-end">
+              <div class="col-12 col-lg-6 d-flex align-items-end">
                 <div class="myglobe">
                     <img src="{{Vite::asset('resources/img/globe-dark-lg.webp')}}" alt="earth image" class="img-fluid">
                 </div>
