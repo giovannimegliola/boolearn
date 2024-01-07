@@ -4,6 +4,7 @@
     background: $prussian-blue;
     background: linear-gradient(100deg, $prussian-blue 0%, $prussian-blue 45%, rgba(255,255,255,1) 45%, rgba(255,255,255,1) 100%);
     height: 100vh;
+    min-width: 457px;
     overflow-x: hidden;
     .logo-ed{
         width: 140px;
@@ -65,5 +66,37 @@
     }
     .condizioni{
         font-size: 0.8em;
+    }
+    @media screen and (max-width:1200px) {
+        h1{
+            font-size: 3em;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        h1{
+            font-size: 1.5em;
+        }
+        .text-title{
+            margin-top: -200px;
+            padding: 0;
+            margin-left: 20px;
+        }
+        .yellow-line{
+            height:20%;
+            width: 3px;
+            padding: 2px;
+
+        }
+        input::placeholder{
+            font-size: 0.8em;
+        }
+        a, span, h5, button, p {
+            font-size: 0.8em;
+        }
+
+        .btn-red, .btn-white{
+            width: 100%;
+            font-size: 0.8em;
+        }
     }
 }
